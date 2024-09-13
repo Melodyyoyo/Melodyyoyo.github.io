@@ -1,0 +1,21 @@
+<button onClick = "show()">執行</button>
+
+<div id = "text"></div>
+
+<script>
+
+let msg = ["red", "blue", "green"];
+
+let i = 0;
+
+function show()
+
+{
+
+document.getElementById("text").innerHTML = msg[i%3];
+
+++i;
+
+}
+
+</script>
